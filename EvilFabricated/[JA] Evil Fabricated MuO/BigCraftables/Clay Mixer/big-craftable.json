@@ -1,0 +1,18 @@
+{
+    "Name": "Clay Mixer",
+    "Price": 1,
+    "TranslationKey": "item.clay_mixer",
+    "CanSell": false,
+    "ProvidesLight": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 390,
+            "Count": 50
+        }],
+        "CanPurchase": false,
+        "IsDefault": true
+    }
+}

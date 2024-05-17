@@ -1,0 +1,13 @@
+{
+	"Name": "Water Bottle",
+	"Price": 0,
+	"TranslationKey": "item.water_bottle",
+	"Category": "Mineral",
+	"Edibility": -300,
+    "CanSell": false,
+	"IsColored": false,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

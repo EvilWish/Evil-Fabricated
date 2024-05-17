@@ -1,0 +1,30 @@
+{
+    "Name": "[Steam] Metalpress",
+    "Price": 1,
+    "TranslationKey": "item.simple_steam_press",
+    "CanSell": false,
+    "ProvidesLight": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Bronze Ingot",
+            "Count": 5
+        },
+        {
+            "Object": "Stone Gear",
+            "Count": 10
+        },
+        {
+            "Object": "Wooden Gear",
+            "Count": 8
+        },
+        {
+            "Object": 335,
+            "Count": 15
+        } ],
+        "CanPurchase": false,
+        "IsDefault": true
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Water Bowl",
+	"Price": 0,
+	"TranslationKey": "item.water_bowl",
+	"Category": "Mineral",
+	"Edibility": -300,
+    "CanSell": false,
+	"IsColored": false,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

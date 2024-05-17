@@ -1,0 +1,90 @@
+﻿[
+	{
+		"ProducerName": "Millstone",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "Wood Hardener",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "Small Well",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	},
+	{
+		"ProducerName": "Clay Mixer",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "Dirt Collector",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	},
+	{
+		"ProducerName": "Simple Mixer",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	},
+	{
+		"ProducerName": "Survival Miner",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	},
+	{
+		"ProducerName": "[Steam] Generator",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	},
+	{
+		"ProducerName": "[Steam] Macerator",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	},
+	{
+		"ProducerName": "[Steam] Alloy Furnace",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	},
+	{
+		"ProducerName": "[Steam] Metalpress",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	},
+	{
+		"ProducerName": "[Steam] Furnace",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	},
+	{
+		"ProducerName": "Survival Furnace",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false,
+		"WorkingOutdoors": true
+	}
+]

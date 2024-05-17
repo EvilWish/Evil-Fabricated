@@ -1,0 +1,13 @@
+{
+	"Name": "Tin Ingot",
+	"TranslationKey": "item.ingot_tin",
+	"Category": "Metal",
+	"Edibility": -300,
+    "CanSell": false,
+	"Price": 1,
+	"IsColored": false,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

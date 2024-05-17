@@ -1,0 +1,28 @@
+{
+	"Name": "Wooden Gear",
+    "Price": 0,
+    "TranslationKey": "item.wooden_gear",
+	"Category": "Metal",
+	"Edibility": -300,
+    "CanSell": false,
+	"IsColored": false,
+	"Recipe": 
+	{
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 12
+        },
+        {
+            "Object": 92,
+            "Count": 5
+        } ],
+        "CanPurchase": false,
+        "IsDefault": true
+    },
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

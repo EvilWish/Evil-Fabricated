@@ -1,0 +1,19 @@
+{
+	"Name": "[Fine] Iron Ore",
+	"TranslationKey": "item.fine_iron",
+	"Category": "Mineral",
+	"Price": 0,
+	"CanSell": false,
+	"IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Demetrius", "Dwarf", "Wizard"]
+	},
+    "ContextTags":
+	[
+    	"season_fall","season_spring","season_sommer",
+    	"fiber_resources_item",
+    	"color_brown"
+    ]
+}

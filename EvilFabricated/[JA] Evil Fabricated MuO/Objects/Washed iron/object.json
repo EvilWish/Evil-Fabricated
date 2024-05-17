@@ -1,0 +1,19 @@
+{
+	"Name": "[Washed] Iron Ore",
+	"Price": 0,
+	"TranslationKey": "item.washed_iron",
+	"Category": "Mineral",
+	"Edibility": -300,
+	"IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Demetrius", "Dwarf", "Wizard"]
+	},
+    "ContextTags":
+	[
+    	"season_fall","season_spring","season_sommer",
+    	"fiber_resources_item",
+    	"color_brown"
+    ]
+}

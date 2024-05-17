@@ -1,0 +1,12 @@
+﻿{
+    "Name": "Evil Fabricated Machine Recipes",
+    "Author": "EvilCoding",
+    "Version": "1.0.0",
+    "Description": "New Machines for Evil Fabricated and Recipes.",
+    "UniqueID": "EvilCoding.SFMachineAR",
+    "MinimumApiVersion": "3.10.0",
+    "ContentPackFor":
+    {
+        "UniqueID": "DIGUS.ProducerFrameworkMod"
+    },    
+}

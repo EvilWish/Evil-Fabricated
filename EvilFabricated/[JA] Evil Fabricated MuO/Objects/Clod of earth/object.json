@@ -1,0 +1,14 @@
+{
+	"Name": "Clod of earth",
+	"TranslationKey": "item.clod_of_earth",
+	"Category": "Metal",
+    "CategoryColorOverride": "55, 130, 35, 255",
+	"Edibility": -300,
+    "CanSell": false,
+	"Price": 1,
+	"IsColored": false,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

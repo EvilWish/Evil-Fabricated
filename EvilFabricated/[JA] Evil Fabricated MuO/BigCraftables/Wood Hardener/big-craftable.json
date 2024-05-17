@@ -1,0 +1,27 @@
+{
+    "Name": "Wood Hardener",
+    "Price": 1,
+    "TranslationKey": "item.wood_hardener",
+    "CanSell": false,
+    "ProvidesLight": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 115
+        },
+        {
+            "Object": 771,
+            "Count": 15
+        },
+        {
+            "Object": 92,
+            "Count": 4
+        } ],
+        "CanPurchase": false,
+        "SkillUnlockName": "Foraging",
+        "SkillUnlockLevel": 5
+    }
+}

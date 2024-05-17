@@ -1,0 +1,17 @@
+{
+   "Name": "Evil Fabricated Machines and More",
+   "Author": "EvilCoding",
+   "Description": "Evil Fabricated added Content.",
+   "Version": "1.0.0",
+   "UniqueID": "EvilCoding.SFMUO",
+   "ContentPackFor": {
+       "UniqueID": "spacechase0.JsonAssets"
+    },
+  "Dependencies": [
+
+    {
+      "UniqueID": "DIGUS.ProducerFrameworkMod",
+      "IsRequired": true,
+    },
+  ]
+}

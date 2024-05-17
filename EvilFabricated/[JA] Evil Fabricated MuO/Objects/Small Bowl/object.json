@@ -1,0 +1,24 @@
+{
+	"Name": "Small Bowl",
+	"Price": 0,
+	"TranslationKey": "item.small_bowl",
+	"Category": "Mineral",
+	"Edibility": -300,
+    "CanSell": false,
+	"IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 3
+        }],
+        "IsDefault": true,
+        "CanPurchase": false
+    },
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

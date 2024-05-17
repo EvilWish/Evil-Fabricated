@@ -1,0 +1,18 @@
+{
+    "Name": "Survival Furnace",
+    "Price": 1,
+    "TranslationKey": "item.survival_furnace",
+    "CanSell": false,
+    "ProvidesLight": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 390,
+            "Count": 50
+        }],
+        "CanPurchase": false,
+        "IsDefault": true
+    }
+}

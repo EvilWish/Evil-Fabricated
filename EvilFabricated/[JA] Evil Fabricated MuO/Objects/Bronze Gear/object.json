@@ -1,0 +1,15 @@
+{
+	"Name": "Bronze Gear",
+    "Price": 0,
+    "TranslationKey": "item.bronze_gear",
+	"Category": "Metal",
+    "CategoryColorOverride": "55, 130, 35, 255",
+	"Edibility": -300,
+    "CanSell": false,
+	"IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"Name": "Bronze Ingot",
+	"TranslationKey": "item.ingot_bronze",
+	"Category": "Metal",
+	"Edibility": -300,
+    "CanSell": false,
+	"Price": 1,
+	"IsColored": false,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

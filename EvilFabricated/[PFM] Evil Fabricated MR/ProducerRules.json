@@ -1,0 +1,525 @@
+﻿[
+    // Still
+    // Here's some extra lines to make sure Nexus counts this as a unique download
+    // Hope you're enjoying the mod! 
+    //Well
+    {
+        "ProducerName": "Small Well",
+        "InputIdentifier": "Small Bowl",
+        "InputStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "Water Bottle",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    //Dirt Collector
+    {
+        "ProducerName": "Dirt Collector",
+        "InputIdentifier": "[Fine] Coal Ore",
+        "InputStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "Clod of earth",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Dirt Collector",
+        "InputIdentifier": 382,
+        "InputStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "Clod of earth",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    //Clay Mixer
+    {
+        "ProducerName": "Clay Mixer",
+        "InputIdentifier": "Clod of earth",
+        "InputStack": 1,
+        "FuelIdentifier": "Water Bottle",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": 330,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    // Wood Hardener
+    {
+        "ProducerName": "Wood Hardener",
+        "InputIdentifier": 388,
+        "InputStack": 10,
+        "FuelIdentifier": 725,
+        "FuelStack": 1,
+        "MinutesUntilReady": 120,
+        "OutputIdentifier": 709,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    //Millstone
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": 382,
+        "InputStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "[Fine] Coal Ore",
+        "OutputStack": 2,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": 380,
+        "InputStack": 1,
+        "MinutesUntilReady": 120,
+        "OutputIdentifier": "[Crushed] Iron Ore",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": 378,
+        "InputStack": 1,
+        "MinutesUntilReady": 120,
+        "OutputIdentifier": "[Crushed] Copper Ore",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": 384,
+        "InputStack": 1,
+        "MinutesUntilReady": 240,
+        "OutputIdentifier": "[Crushed] Gold Ore",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": 386,
+        "InputStack": 1,
+        "MinutesUntilReady": 360,
+        "OutputIdentifier": "[Crushed] Iridium Ore",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": "[Fine] Iron Ore",
+        "InputStack": 1,
+        "MinutesUntilReady": 120,
+        "OutputIdentifier": "[Crushed] Iron Ore",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": "[Fine] Copper Ore",
+        "InputStack": 1,
+        "MinutesUntilReady": 120,
+        "OutputIdentifier": "[Dust] Copper",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": "[Fine] Gold Ore",
+        "InputStack": 1,
+        "MinutesUntilReady": 240,
+        "OutputIdentifier": "[Crushed] Gold Ore",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": "[Fine] Iridium Ore",
+        "InputStack": 1,
+        "MinutesUntilReady": 360,
+        "OutputIdentifier": "[Crushed] Iridium Ore",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Millstone",
+        "InputIdentifier": "[Ore] Tin",
+        "InputStack": 1,
+        "MinutesUntilReady": 360,
+        "OutputIdentifier": "[Dust] Tin",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    // Simple Mixer
+    {
+        "ProducerName": "Simple Mixer",
+        "InputIdentifier": "[Crushed] Copper Ore",
+        "InputStack": 3,
+        "FuelIdentifier": "[Dust] Tin",
+        "FuelStack": 1,
+        "MinutesUntilReady": 360,
+        "OutputIdentifier": "[Dust] Bronze",
+        "OutputStack": 3,
+        "Sounds": ["Ship"]
+    },
+    //Survival Miner
+    {
+        "ProducerName": "Survival Miner",
+        "InputIdentifier": "[Fine] Coal Ore",
+        "InputStack": 1,
+        "MinutesUntilReady": 90,
+        "OutputIdentifier": "[Ore] Copper",
+        "OutputStack": 1,
+        "AdditionalOutputs": 
+        [ 
+            {
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "[Ore] Copper", 
+                "MinutesUntilReady": 90 
+            },
+            {
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "[Ore] Tin", 
+                "MinutesUntilReady": 90 
+            },
+            {
+                "OutputProbability": 0.3, 
+                "OutputIdentifier": 382, 
+                "MinutesUntilReady": 90 
+            }
+        ],
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Survival Miner",
+        "InputIdentifier": 382,
+        "InputStack": 1,
+        "MinutesUntilReady": 90,
+        "OutputIdentifier": "[Ore] Copper",
+        "OutputStack": 1,
+        "AdditionalOutputs": 
+        [ 
+            {
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "[Ore] Copper", 
+                "MinutesUntilReady": 90 
+            },
+            {
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "[Ore] Tin", 
+                "MinutesUntilReady": 90 
+            },
+            {
+                "OutputProbability": 0.3, 
+                "OutputIdentifier": 382, 
+                "MinutesUntilReady": 90 
+            }
+        ],
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "Survival Miner",
+        "InputIdentifier": 388,
+        "InputStack": 5,
+        "MinutesUntilReady": 90,
+        "OutputIdentifier": "[Ore] Copper",
+        "OutputStack": 1,
+        "AdditionalOutputs": 
+        [ 
+            {
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "[Ore] Copper", 
+                "MinutesUntilReady": 90 
+            },
+            {
+                "OutputProbability": 0.2, 
+                "OutputIdentifier": "[Ore] Tin", 
+                "MinutesUntilReady": 90 
+            },
+            {
+                "OutputProbability": 0.3, 
+                "OutputIdentifier": 382, 
+                "MinutesUntilReady": 90 
+            }
+        ],
+        "Sounds": ["Ship"]
+    },
+    //Steam Gen
+    {
+        "ProducerName": "[Steam] Generator",
+        "InputIdentifier": "Water Bottle",
+        "InputStack": 2,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": "Steam Capsule",
+        "OutputStack": 2,
+        "Sounds": ["Ship"]
+    },
+    // Alloy
+    {
+        "ProducerName": "[Steam] Alloy Furnace",
+        "InputIdentifier": 334,
+        "InputStack": 3,
+        "FuelIdentifier": "Tin Ingot",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": "Bronze Ingot",
+        "OutputStack": 3,
+        "Sounds": ["Ship"]
+    },
+    // Furnace
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": 378,
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": 334,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": "[Crushed] Copper",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": 334,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": "[Dust] Copper",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": 334,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": 380,
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": 335,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": "[Crushed] Iron",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": 335,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": 384,
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": 336,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": "[Crushed] Gold",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": 336,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": 386,
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": 337,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": "[Crushed] Iridium",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": 337,
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": "[Ore] Tin",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": "Tin Ingot",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": "[Crushed] Tin",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": "Tin Ingot",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Furnace",
+        "InputIdentifier": "[Dust] Bronze",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 40,
+        "OutputIdentifier": "Bronze Ingot",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    //Macerator
+    {
+        "ProducerName": "[Steam] Macerator",
+        "InputIdentifier": "[Ore] Tin",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "[Dust] Tin",
+        "OutputStack": 2,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Macerator",
+        "InputIdentifier": "[Ore] Copper",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "[Crushed] Copper Ore",
+        "OutputStack": 2,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Macerator",
+        "InputIdentifier": 386,
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "[Crushed] Iridium Ore",
+        "OutputStack": 2,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Macerator",
+        "InputIdentifier": 384,
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "[Crushed] Gold Ore",
+        "OutputStack": 2,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Macerator",
+        "InputIdentifier": 380,
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "[Crushed] Iron Ore",
+        "OutputStack": 2,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Macerator",
+        "InputIdentifier": 378,
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "[Crushed] Copper Ore",
+        "OutputStack": 2,
+        "Sounds": ["Ship"]
+    },
+    // Metal Press
+    {
+        "ProducerName": "[Steam] Metalpress",
+        "InputIdentifier": 334,
+        "InputStack": 4,
+        "FuelIdentifier": "Steam Bottle",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "Copper Gear",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Macerator",
+        "InputIdentifier": 336,
+        "InputStack": 4,
+        "FuelIdentifier": "Steam Bottle",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "Gold Gear",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Metalpress",
+        "InputIdentifier": 335,
+        "InputStack": 4,
+        "FuelIdentifier": "Steam Bottle",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "Iron Gear",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    {
+        "ProducerName": "[Steam] Macerator",
+        "InputIdentifier": "Bronze Ingot",
+        "InputStack": 4,
+        "FuelIdentifier": "Steam Bottle",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "Bronze Gear",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    },
+    //Furnace
+    {
+        "ProducerName": "Survival Furnace",
+        "InputIdentifier": "[Dust] Bronze",
+        "InputStack": 1,
+        "FuelIdentifier": "[Fine] Coal Ore",
+        "FuelStack": 1,
+        "MinutesUntilReady": 60,
+        "OutputIdentifier": "Bronze Ingot",
+        "OutputStack": 1,
+        "Sounds": ["Ship"]
+    }
+]

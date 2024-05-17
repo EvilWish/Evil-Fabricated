@@ -1,0 +1,14 @@
+{
+	"Name": "Gold Gear",
+    "Price": 0,
+    "TranslationKey": "item.gold_gear",
+	"Category": "Metal",
+	"Edibility": -300,
+    "CanSell": false,
+	"IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

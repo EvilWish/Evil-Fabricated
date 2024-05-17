@@ -1,0 +1,27 @@
+{
+    "Name": "Dirt Collector",
+    "Price": 1,
+    "TranslationKey": "item.dirt_collector",
+    "CanSell": false,
+    "ProvidesLight": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 50
+        },
+        {
+            "Object": 771,
+            "Count": 15
+        },
+        {
+            "Object": 92,
+            "Count": 4
+        } ],
+        "CanPurchase": false,
+        "SkillUnlockName": "Mining",
+        "SkillUnlockLevel": 1
+    }   
+}

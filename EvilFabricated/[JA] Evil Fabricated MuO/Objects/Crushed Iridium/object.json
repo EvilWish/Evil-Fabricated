@@ -1,0 +1,19 @@
+{
+	"Name": "[Crushed] Iridium Ore",
+	"Price": 0,
+	"TranslationKey": "item.crushed_iridium",
+	"Category": "Mineral",
+	"Edibility": -300,
+	"IsColored": false,
+	"Recipe": null,
+    "GiftTastes":
+	{
+		"Neutral": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"],
+	},
+    "ContextTags":
+	[
+    	"season_fall","season_spring","season_sommer",
+    	"fiber_resources_item",
+    	"color_brown"
+    ]
+}

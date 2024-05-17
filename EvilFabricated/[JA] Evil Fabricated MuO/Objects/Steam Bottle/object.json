@@ -1,0 +1,14 @@
+{
+	"Name": "Steam Bottle",
+	"Price": 0,
+	"TranslationKey": "item.steam_bottle",
+	"Category": "Mineral",
+	"Edibility": -300,
+    "CanSell": false,
+	"IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+	{
+		"Neutral": ["Clint", "Dwarf", "Wizard"]
+	}
+}

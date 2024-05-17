@@ -1,0 +1,26 @@
+{
+    "Name": "[Steam] Generator",
+    "Price": 1,
+    "TranslationKey": "item.simple_steam_engine",
+    "CanSell": false,
+    "ProvidesLight": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Bronze Ingot",
+            "Count": 7
+        },
+        {
+            "Object": "Stone Gear",
+            "Count": 2
+        },
+        {
+            "Object": 335,
+            "Count": 6
+        } ],
+        "CanPurchase": false,
+        "IsDefault": true
+    }
+}

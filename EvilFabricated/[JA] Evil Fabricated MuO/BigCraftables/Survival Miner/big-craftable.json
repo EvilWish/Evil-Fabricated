@@ -1,0 +1,34 @@
+{
+    "Name": "Survival Miner",
+    "Price": 1,
+    "TranslationKey": "item.survival_miner",
+    "CanSell": false,
+    "ProvidesLight": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Stone Gear",
+            "Count": 4
+        },
+        {
+            "Object": "Wooden Gear",
+            "Count": 2
+        },
+        {
+            "Object": 388,
+            "Count": 50
+        },
+        {
+            "Object": 390,
+            "Count": 25
+        },
+        {
+            "Object": 92,
+            "Count": 5
+        } ],
+        "CanPurchase": false,
+        "IsDefault": true
+    }
+}
